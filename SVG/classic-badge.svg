@@ -1,0 +1,50 @@
+<svg fill="none" viewBox="0 0 {width} {height}" width="{width}" height="{height}" xmlns="http://www.w3.org/2000/svg">
+    <foreignObject width="100%" height="100%">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+            <style>
+                :root {
+  --primary-color: DodgerBlue;
+  --secondary-color: white;
+  --primary-weight: 10px;
+}
+                .badge {
+                    display: inline-flex;
+                    font-weight: bold;
+                    vertical-align: top;
+                    background-color: var(--primary-color);
+                }
+
+                .badge-icon {
+                    vertical-align: baseline;
+                    padding: 2px 2px  2px 2px;
+                    max-height: 80%;
+                    height : auto;
+                    flex: 1 auto;
+                }
+
+                .badge-text {
+                    text-align: center;
+                    flex: 2;
+                    align: center;
+                    margin-left: var(--primary-weight);
+                    color: var(--secondary-color);
+                    font-size: var(--primary-weight);
+                }
+            </style>
+
+
+
+            <div class="badge">
+                <div class="badge-icon">
+                    <img src="{text1}" alt="icon"/>
+                </div>
+                <div class="badge-text">
+                    <span> {text2} </span>
+                    <!---<b>gdpr</b></span><br></br>
+                        <span>ready</span> -->
+                </div>
+            </div>
+
+        </div>
+    </foreignObject>
+</svg>

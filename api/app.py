@@ -27,7 +27,7 @@ def svg_endpoint():
     error_svg = "origin"
 
     svg = svgs.get(type, svgs[error_svg])
-
+    print(svg)
     return svg, 200, {'Content-Type': 'image/svg+xml'}
 
 if __name__ == '__main__':
