@@ -1,4 +1,5 @@
 from flask import Flask, request
+from waitress import serve
 #from origin import origin
 app = Flask(__name__)
 
@@ -31,4 +32,4 @@ def svg_endpoint():
     return svg, 200, {'Content-Type': 'image/svg+xml'}
 
 if __name__ == '__main__':
-    app.run(port=1234)
+    serve(app, host='0.0.0.0', port=8080)
