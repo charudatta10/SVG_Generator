@@ -1,0 +1,31 @@
+{
+    "title": "legendary-dollop",
+    "description": "Generate SVGs",
+    "features": [
+        "create banners",
+        "create badges"
+    ],
+    "list_badges": [
+        "python",
+        "HTML",
+        "CSS"
+    ],
+    "steps": [
+        "python api/app.py"
+    ],
+    "FAQ": {
+        "is app self hosted?": "Yes"
+    },
+    "dependencies": [
+        "flask",
+        "waitress"
+    ],
+    "user": "charudatta10",
+    "contact_link": "https://charudatta10.github.io/linktree/",
+    "license": "GPL-3.0",
+    "img_slogo": "favicon05.svg",
+    "img_profile": "profile-picture.png",
+    "img_screenshot": "",
+    "img_preview": "",
+    "img_logo": ""
+}
