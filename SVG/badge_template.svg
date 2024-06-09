@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="{{width}}" height="{{height}}">
+<rect x="0" y="0" width="{{0.4 *width}}" height="{{height}}" fill="{{left_color}}" />
+<text x="{{0.2 *width}}" y="{{0.3 *height}}" text-anchor="middle" fill="{{font_color}}">{{left_text}}</text>
+<rect x="{{0.4 *width}}" y="0" width="{{0.6 *width}}" height="{{height}}" fill="{{right_color}}" />
+<text x="{{0.7 *width}}" y="{{0.3 *height}}" text-anchor="middle" fill="{{font_color}}">{{right_text}}</text>
+</svg>

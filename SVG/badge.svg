@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="50">
+<rect x="0" y="0" width="40" height="50" fill="#0e4474" />
+<text x="20" y="30" text-anchor="middle" fill="white">&#x2B50;</text>
+<rect x="40" y="0" width="60" height="50" fill="#3295ec" />
+<text x="70" y="30" text-anchor="middle" fill="white">Badge2</text>
+</svg>

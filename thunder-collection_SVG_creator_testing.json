@@ -1,0 +1,90 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "SVG_creator_testing",
+    "collectionId": "359be420-9586-4450-9da6-104329ce1899",
+    "dateExported": "2024-06-09T17:05:40.305Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "e43054a1-d8b6-4e93-8c51-88ad88a1578b",
+            "colId": "359be420-9586-4450-9da6-104329ce1899",
+            "containerId": "",
+            "name": "badges",
+            "url": "http://localhost:8080/badges",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-06-09T16:58:28.403Z",
+            "modified": "2024-06-09T16:58:28.403Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "*/*",
+                    "isDisabled": true
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"width\": 200,\n  \"height\": 50,\n  \"left_color\": \"#0e4474\",\n  \"right_color\": \"#3295ec\",\n  \"font_color\": \"white\",\n  \"left_text\": \"white1\",\n  \"right_text\": \"white2\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "b6d5e98e-a902-4bea-9594-2002331eb72e",
+            "colId": "359be420-9586-4450-9da6-104329ce1899",
+            "containerId": "",
+            "name": "test connection",
+            "url": "http://localhost:8080/hi",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-06-09T17:00:33.077Z",
+            "modified": "2024-06-09T17:00:33.077Z",
+            "headers": []
+        },
+        {
+            "_id": "4dc9101c-f4b1-4479-ada8-db1bcf1f874b",
+            "colId": "359be420-9586-4450-9da6-104329ce1899",
+            "containerId": "",
+            "name": "banner",
+            "url": "http://localhost:8080/banner?type=luminance&text1=Charudatta Korde&text2=None&width=500&height=200",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-06-09T17:04:32.439Z",
+            "modified": "2024-06-09T17:04:32.439Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "type",
+                    "value": "luminance",
+                    "isPath": false
+                },
+                {
+                    "name": "text1",
+                    "value": "Charudatta Korde",
+                    "isPath": false
+                },
+                {
+                    "name": "text2",
+                    "value": "None",
+                    "isPath": false
+                },
+                {
+                    "name": "width",
+                    "value": "500",
+                    "isPath": false
+                },
+                {
+                    "name": "height",
+                    "value": "200",
+                    "isPath": false
+                }
+            ]
+        }
+    ],
+    "ref": "pO4ZHvednDNrIN26AyRsOn899vegm3MXelHzwvaPWnoZ2oJBtBpfUmoNDKSQ9rIRTjkqAlritV9MnCA_xF0Oag"
+}
