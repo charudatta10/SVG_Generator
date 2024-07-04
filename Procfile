@@ -1,1 +1,1 @@
-web: waitress app:app
+web: python api/app.py
