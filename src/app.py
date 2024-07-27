@@ -32,7 +32,7 @@ def svg_banner_endpoint():
     text2 = request.args.get('text2')
     height = request.args.get('height')
     width = request.args.get('width')
-    with open(f"SVG/{type}.svg","r+") as f:
+    with open(f"docs/templates/{type}.svg","r+") as f:
         svg_str = f.read()
         svg_str = svg_str.replace('{text1}', text1, -1)
         svg_str = svg_str.replace('{text2}', text2, -1)
@@ -51,7 +51,7 @@ def svg_banner_endpoint():
 @app.route('/badges')
 def svg_badges_endpoint():
     data = request.get_json()
-    with open("SVG/badge_template.svg", 'r') as template_file:
+    with open("docs/templates/badge_template.svg", 'r') as template_file:
         template_content = template_file.read()
     # Create a Jinja2 template
     template = Template(template_content)

@@ -59,13 +59,12 @@ exe file_name:
 api:
     #!pwsh
     conda activate w
-    p api/app.py
+    p src/app.py
 
 cli:
     #!pwsh
     conda activate w
-    cd api
-    p cli.py
+    p src/cli.py
 
 
 
