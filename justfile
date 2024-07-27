@@ -57,6 +57,17 @@ exe file_name:
 
 #########-ADD-Custom-Tasks-Here-##################
 
+api:
+    #!pwsh
+    conda activate w
+    p api/app.py
+
+cli:
+    #!pwsh
+    conda activate w
+    cd api
+    p cli.py
+
 
 
 
