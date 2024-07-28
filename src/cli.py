@@ -39,5 +39,5 @@ def svg_badges_endpoint(path_template, path_json, path_svg):
     
 
 if __name__ == '__main__':
-    svg_badges_endpoint("docs/templates/badge_template.svg", "test/test.json", "test/test1.svg")
+    svg_badges_endpoint("docs/templates/badge_template.svg", "tests/test.json", "tests/test1.svg")
 
