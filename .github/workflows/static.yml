@@ -1,5 +1,5 @@
-# Workflow for deploying Docsify content to GitHub Pages
-name: Deploy Docsify Site to Pages
+# Deploys the static SVG Generator app (docs/) to GitHub Pages
+name: Deploy Static Site to Pages
 
 on:
   # Runs on pushes targeting the default branch
@@ -36,8 +36,8 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
-      # Step 3: Upload the Docsify site files (docs directory)
-      - name: Upload Docsify Site
+      # Step 3: Upload the static site files (docs directory)
+      - name: Upload Static Site
         uses: actions/upload-pages-artifact@v3
         with:
           # Only include the `docs/` directory

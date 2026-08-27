@@ -21,50 +21,38 @@
 ![project](https://flat.badgen.net///static/project/SVG_Generator)
 
 <!-- Badges: Tools used -->
-`python` `just` `gig` `jinja2` `flask` `Waitress` 
+`html` `css` `javascript` `github-pages` 
 
 ## What is this? 🗎
 
-SVG Generator renders banner and badge images from Jinja2 SVG templates. It ships as a Flask web service and a small CLI, with ready-made templates for banners, badges, and social-style SVGs. Text, size, and style placeholders are filled in dynamically on each request.
+SVG Generator renders banner and badge images from SVG templates. It's a static web app hosted on GitHub Pages — banners, badges, and social-style SVGs are rendered entirely in your browser, no server required. Text, size, and style placeholders are filled in dynamically.
+
+Try it live: **[SVG Generator on GitHub Pages](https://charudatta10.github.io/svg-generator/)**
 
 ## Features 🌟
 
 - Create banners. 
 - Create badges. 
- 
-
+  
 ## Getting Started 🌱
 
-Clone and install dependencies:
+Open the hosted app: **[SVG Generator on GitHub Pages](https://charudatta10.github.io/svg-generator/)**
+
+Or run it locally — the whole app lives in `docs/` and needs no build step:
 
 ```bash
 git clone https://github.com/charudatta10/svg-generator.git
 cd svg-generator
-pip install -r requirements.txt
-```
-
-Run the API server:
-
-```bash
-invoke run_api
-```
-
-Or run the CLI:
-
-```bash
-invoke run_cli
+python -m http.server --directory docs   # optional local preview
 ```
 
 ## Usage examples
 
-Start the API server and render a banner:
+Pick a template, adjust the text, size, and colors, then copy the SVG straight into your README. Fields can also be prefilled with URL params:
 
-```bash
-python src/app.py
-curl "http://localhost:8080/banner?type=origin&text1=Hello&text2=World&width=500&height=200"
+```text
+https://charudatta10.github.io/svg-generator/?type=origin.svg&text1=Hello&text2=World&width=500&height=200
 ```
-
-Render a badge from JSON via the `/badges` endpoint, or run the CLI to render `tests/test1.svg` from `tests/test.json`.
 
 ## License
 
